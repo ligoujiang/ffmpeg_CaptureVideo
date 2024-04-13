@@ -1,0 +1,1 @@
+ffplay 1.yuv -video_size 640x480 -pixel_format yuyv422

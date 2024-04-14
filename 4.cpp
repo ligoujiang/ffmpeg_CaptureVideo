@@ -375,8 +375,7 @@ int main(int argc,char** argv){
     avdevice_register_all();
     CaptureVideo cv(argv[1]);
     //cv.captureVideo_ListDevices();
-    cv.recVideo();
     //cv.captureAudio_ListDevices();
-    //cv.recAudio();
+    cv.recAudio();
     return 0;
 }

@@ -1,1 +1,4 @@
 ffplay 1.yuv -video_size 640x480 -pixel_format yuyv422
+ffplay 1.yuv -video_size 640x480 -pixel_format yuv420p
+
+ffplay -f s16le -ac 2 -ar 44100 1.pcm
